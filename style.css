@@ -17,7 +17,8 @@
 
 body {
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .thin {
@@ -36,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: calc(100% - 16px);
+    width: 100%;
     padding: 0 var(--padding-1);
 }
 
